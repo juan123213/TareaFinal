@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39e5c19d-26ee-48f5-8e43-2499d658094b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vuelo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ControlVueloTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador/LectorArchivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ControlVuelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ControlVuelo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ruta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ControlVuelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/ControlVuelo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entidades/Ruta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vuelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entidades/Vuelo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ControlVueloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ControlVueloTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,6 +45,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
     "project.structure.last.edited": "Modules",
@@ -59,52 +61,52 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ControlVUeloTest.tipoIncorrecto">
-    <configuration name="ControlVUeloTest.precioValido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ControlVueloTest.FuncioneFiltro">
+    <configuration name="ControlVueloTest.FuncioneFiltro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TareaFinal" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ControlVUeloTest" />
-      <option name="METHOD_NAME" value="precioValido" />
+      <option name="MAIN_CLASS_NAME" value="ControlVueloTest" />
+      <option name="METHOD_NAME" value="FuncioneFiltro" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControlVUeloTest.tipoIncorrecto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ControlVueloTest.duracionValidaESCALAR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TareaFinal" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ControlVUeloTest" />
-      <option name="METHOD_NAME" value="tipoIncorrecto" />
+      <option name="MAIN_CLASS_NAME" value="ControlVueloTest" />
+      <option name="METHOD_NAME" value="duracionValidaESCALAR" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControlVUeloTest.tipoValido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ControlVueloTest.precioValidoESCALAR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TareaFinal" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ControlVUeloTest" />
-      <option name="METHOD_NAME" value="tipoValido" />
+      <option name="MAIN_CLASS_NAME" value="ControlVueloTest" />
+      <option name="METHOD_NAME" value="precioValidoESCALAR" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControlVUeloTest.tipoValidoEscalar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ControlVueloTest.tipoIncorrectoFiltro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TareaFinal" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ControlVUeloTest" />
+      <option name="MAIN_CLASS_NAME" value="ControlVueloTest" />
+      <option name="METHOD_NAME" value="tipoIncorrectoFiltro" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlVueloTest.tipoValidoEscalar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TareaFinal" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ControlVueloTest" />
       <option name="METHOD_NAME" value="tipoValidoEscalar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ControlVUeloTest.vueloValido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TareaFinal" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ControlVUeloTest" />
-      <option name="METHOD_NAME" value="vueloValido" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ControlVUeloTest.tipoIncorrecto" />
-        <item itemvalue="JUnit.ControlVUeloTest.tipoValidoEscalar" />
-        <item itemvalue="JUnit.ControlVUeloTest.precioValido" />
-        <item itemvalue="JUnit.ControlVUeloTest.tipoValido" />
-        <item itemvalue="JUnit.ControlVUeloTest.vueloValido" />
+        <item itemvalue="JUnit.ControlVueloTest.FuncioneFiltro" />
+        <item itemvalue="JUnit.ControlVueloTest.tipoIncorrectoFiltro" />
+        <item itemvalue="JUnit.ControlVueloTest.duracionValidaESCALAR" />
+        <item itemvalue="JUnit.ControlVueloTest.precioValidoESCALAR" />
+        <item itemvalue="JUnit.ControlVueloTest.tipoValidoEscalar" />
       </list>
     </recent_temporary>
   </component>
@@ -141,5 +143,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/ControlVueloTest.java</url>
+          <line>22</line>
+          <properties class="ControlVueloTest" method="tipoValidoDirecto">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
