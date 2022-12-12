@@ -20,8 +20,28 @@ public class ControlVuelo {
     public void cargarVuelo(){
         Ruta ruta1= new Ruta("manizales","medellin",8,20.000);
         Ruta ruta2= new Ruta("medellin","bogota",8,20.000);
+        Ruta ruta3= new Ruta("cartagena","bucaramanga",5,10.000);
+        Ruta ruta4= new Ruta("bucaramanga","quindio",3,30.000);
+        Ruta ruta5= new Ruta("cali","ipiales",6,15.000);
+        Ruta ruta6= new Ruta("ipiales","rionegro",8,20.000);
+        Ruta ruta7= new Ruta("buga","aranjuez",2,10.000);
+        Ruta ruta8= new Ruta("aranjuez","villavicencio",18,50.000);
+        Ruta ruta9= new Ruta("jardin","quito",8,20.000);
+        Ruta ruta10= new Ruta("quito","santamarta",16,100.000);
+
         rutas.add(ruta1);
         rutas.add(ruta2);
+        rutas.add(ruta3);
+        rutas.add(ruta4);
+        rutas.add(ruta5);
+        rutas.add(ruta6);
+        rutas.add(ruta7);
+        rutas.add(ruta8);
+        rutas.add(ruta9);
+        rutas.add(ruta10);
+
+
+
 
     }
 
